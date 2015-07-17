@@ -43,8 +43,6 @@
 		1FF25DFC1AE2C06F002632C4 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF25DFA1AE2C06A002632C4 /* Async.framework */; };
 		1FF5E7161ACFD0E20062A9DD /* OperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5E7151ACFD0E20062A9DD /* OperationTests.swift */; };
 		1FF5E7171ACFD0E20062A9DD /* OperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5E7151ACFD0E20062A9DD /* OperationTests.swift */; };
-		480E83EB1ABB9B7400AF8346 /* DynamicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480E83EA1ABB9B7400AF8346 /* DynamicArray.swift */; };
-		480E83EC1ABB9B7400AF8346 /* DynamicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480E83EA1ABB9B7400AF8346 /* DynamicArray.swift */; };
 		484554ED1A4CF9CD007770CA /* SwiftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484554EC1A4CF9CD007770CA /* SwiftTask.framework */; };
 		484554F11A4CF9E3007770CA /* SwiftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484554EC1A4CF9CD007770CA /* SwiftTask.framework */; };
 		4875885519E4D94800828AD0 /* KVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875885119E4D94800828AD0 /* KVO.swift */; };
@@ -129,7 +127,6 @@
 		1FED8AA919C1ECD30065658B /* _TestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _TestCase.swift; sourceTree = "<group>"; };
 		1FF25DFA1AE2C06A002632C4 /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = ../Carthage/Checkouts/Async/build/Debug/Async.framework; sourceTree = "<group>"; };
 		1FF5E7151ACFD0E20062A9DD /* OperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationTests.swift; sourceTree = "<group>"; };
-		480E83EA1ABB9B7400AF8346 /* DynamicArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicArray.swift; sourceTree = "<group>"; };
 		484554EC1A4CF9CD007770CA /* SwiftTask.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftTask.framework; path = ../Carthage/Checkouts/SwiftTask/build/Debug/SwiftTask.framework; sourceTree = "<group>"; };
 		4875885119E4D94800828AD0 /* KVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVO.swift; sourceTree = "<group>"; };
 		4875885219E4D94800828AD0 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
@@ -198,7 +195,6 @@
 			children = (
 				1F7233291ABDB33F00A0C8CF /* Helper */,
 				4875885119E4D94800828AD0 /* KVO.swift */,
-				480E83EA1ABB9B7400AF8346 /* DynamicArray.swift */,
 				4875885219E4D94800828AD0 /* Notification.swift */,
 				4875885419E4D94800828AD0 /* TargetAction.swift */,
 				4875885319E4D94800828AD0 /* NSObject+Deinit.swift */,
@@ -478,7 +474,6 @@
 				48DDE7721A0C41A300125F36 /* NSObject+Own.swift in Sources */,
 				4875885519E4D94800828AD0 /* KVO.swift in Sources */,
 				4890AA901A5B70650028586C /* Stream+Conversion.swift in Sources */,
-				480E83EB1ABB9B7400AF8346 /* DynamicArray.swift in Sources */,
 				1F72332B1ABDB34C00A0C8CF /* NSIndexSet+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,7 +514,6 @@
 				4875885619E4D94800828AD0 /* KVO.swift in Sources */,
 				48DDE7731A0C41A300125F36 /* NSObject+Own.swift in Sources */,
 				48FD5B3C19E51E7100913946 /* UIBarButtonItem+Stream.swift in Sources */,
-				480E83EC1ABB9B7400AF8346 /* DynamicArray.swift in Sources */,
 				4875886219E4D95A00828AD0 /* UIButton+Stream.swift in Sources */,
 				4875886419E4D95A00828AD0 /* UIGestureRecognizer+Stream.swift in Sources */,
 				4875885819E4D94800828AD0 /* Notification.swift in Sources */,
